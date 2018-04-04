@@ -8210,30 +8210,7 @@ button.close {
 	-webkit-border-radius: 3px;
 			    border-radius: 3px;
 }
-.flag-australia {
-  background-image:url(../img/flags/flag_au.png);
-}
-.flag-england {
-  background-image:url(../img/flags/flag_gb.png);
-}
-.flag-france {
-  background-image:url(../img/flags/flag_fr.png);
-}
-.flag-germany {
-  background-image:url(../img/flags/flag_de.png);
-}
-.flag-japan {
-  background-image:url(../img/flags/flag_jp.png);
-}
-.flag-netherlands {
-  background-image:url(../img/flags/flag_nl.png);
-}
-.flag-singapore {
-  background-image:url(../img/flags/flag_sg.png);
-}
-.flag-usa {
-	background-image:url(../img/flags/flag_us.png);
-}
+
 
 .flag-sm {
 	display: inline-block;
@@ -8242,30 +8219,7 @@ button.close {
 	-webkit-border-radius: 3px;
 			    border-radius: 3px;
 }
-.flag-australia-sm {
-  background-image:url(../img/flags/flagsm_au.png);
-}
-.flag-england-sm {
-  background-image:url(../img/flags/flagsm_gb.png);
-}
-.flag-france-sm {
-  background-image:url(../img/flags/flagsm_fr.png);
-}
-.flag-germany-sm {
-  background-image:url(../img/flags/flagsm_de.png);
-}
-.flag-japan-sm {
-  background-image:url(../img/flags/flagsm_jp.png);
-}
-.flag-netherlands-sm {
-  background-image:url(../img/flags/flagsm_nl.png);
-}
-.flag-singapore-sm {
-  background-image:url(../img/flags/flagsm_sg.png);
-}
-.flag-usa-sm {
-  background-image:url(../img/flags/flagsm_us.png);
-}
+
 
 .flag-xs {
   display: inline-block;
@@ -8275,30 +8229,7 @@ button.close {
   -webkit-border-radius: 2px;
           border-radius: 2px;
 }
-.flag-australia-xs {
-  background-image:url(../img/flags/flagxs_au.png);
-}
-.flag-england-xs {
-  background-image:url(../img/flags/flagxs_gb.png);
-}
-.flag-france-xs {
-  background-image:url(../img/flags/flagxs_fr.png);
-}
-.flag-germany-xs {
-  background-image:url(../img/flags/flagxs_de.png);
-}
-.flag-japan-xs {
-  background-image:url(../img/flags/flagxs_jp.png);
-}
-.flag-netherlands-xs {
-  background-image:url(../img/flags/flagxs_nl.png);
-}
-.flag-singapore-xs {
-  background-image:url(../img/flags/flagxs_sg.png);
-}
-.flag-usa-xs {
-  background-image:url(../img/flags/flagxs_us.png);
-}
+
 
 .select2-container {
   box-sizing: border-box;

@@ -243,11 +243,7 @@ a {
     opacity: 1;
   }
 }
-.zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
-  transition: opacity 300ms ease-out transform 600ms cubic-bezier(0.23, 1, 0.32, 1);
-}
+
 @-webkit-keyframes zoomOut {
   from {
     opacity: 0;
@@ -5798,14 +5794,7 @@ html:not(.mobile) .person:hover .person-actions > * {
 	height: 224px;
 	width: 180px;
 }
-.server-lines {
-	position: absolute;
-	right: -180px;
-	top: 25px;
-	height: 63px;
-	width: 161px;
-	background: url(../img/section/server-lines.svg);
-}
+
 
 /* IMAGE: Advanced Networking */
 
@@ -6386,11 +6375,7 @@ html:not(.mobile) .person:hover .person-actions > * {
 	height: 45px;
 	width: 47px;
 }
-.map-lines {
-	height: 196px;
-	width: 420px;
-	background-image: url(../img/section/peering-lines-v3.svg);
-}
+
 
 /* IMAGE: Fast Network */
 
@@ -6434,26 +6419,7 @@ html:not(.mobile) .person:hover .person-actions > * {
 				transform: scale(0.8);
 	}
 }
-.speedometer {
-	height: 200px;
-	width: 200px;
-	background-image: url(../img/section/speedometer.svg);
-}
-.speedometer-hand {
-	height: 200px;
-	width: 200px;
-	background-image: url(../img/section/speedometer-hand.svg);
-}
-.speedometer-sm {
-	height: 130px;
-	width: 130px;
-	background-image: url(../img/section/speedometer.svg);
-}
-.speedometer-sm .speedometer-hand {
-	height: 130px;
-	width: 130px;
-	background-image: url(../img/section/speedometer-hand.svg);
-}
+
 .line-dashed-x {
 	height: 0;
 	border-bottom: 2px dashed #1e88e5;
