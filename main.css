@@ -699,15 +699,7 @@ a {
 
 /* 2.2.1 Navbar: Brand */
 
-.navbar-brand {
-	height: 58px;
-	width: 167px;
-	background: url(../img/logo.svg) no-repeat 0 0;
-	background-size: cover;
-}
-.no-svg .navbar-brand {
-	background: url(../img/png/logo.png) no-repeat center center;
-}
+
 @media (max-width: 767px) {
   .page-navbar .container {
     padding: 0 10px;
