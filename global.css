@@ -60,16 +60,7 @@
 	}
 }
 
-select.form-control {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url('/_images/arrow.png');
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    background-size: 30px 50px;
-    cursor: pointer;
-}
+
 
 .page-section.no-border { border-width: 0px; }
 
@@ -112,7 +103,6 @@ hr.hr50			{ height:50px; border:none; margin:0px; padding:0px; width:100%; }
 .package > .package-header > .gv  { display: none; }
 
 .package.great_value > .package-header        { background-color: #1e88e5; border-top-left-radius: 2px; border-top-right-radius: 2px; position: relative; }
-.package.great_value > .package-header > .gv  { display: block; position: absolute; top: 0px; right: 0px; background-image: url('/_images/great_value.png'); width: 92px; height: 70px; opacity: 0.90; }
 .package.great_value > .package-header > h3   { color: #ffffff; }
 .package.great_value > .package-header > span { color: #ffffff; }
 
@@ -763,23 +753,7 @@ a.panel-blue-gradient,
 
 
 
-.promo-badge2 {
-	display: block;
-	position: absolute;
-	top: 13px;
-	right: -42px;
-	height: 52px;
-	width: 162px;
-	background: url(/dist/img/badge2.svg) no-repeat;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	color: #fff;
-	padding: 10px;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 14px;
-}
+
 .promo-badge2 > div {
 	font-size: 18px;
 }
@@ -796,10 +770,6 @@ a.panel-blue-gradient,
 	and (device-height : 812px)
 	and (-webkit-device-pixel-ratio : 3)
 	and (orientation : landscape) {
-	.container,
-	.location-map {
-		padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
-	}
 
 	.banner-tabs .tabs-mobile-slider.nav-tabs li.active span:after, .banner-tabs .tabs-mobile-slider.nav-tabs li.active a:after {
 		content: "" !important;

@@ -6362,11 +6362,7 @@ html:not(.mobile) .person:hover .person-actions > * {
 		transform: scale(1);
 	}
 }
-.user {
-	height: 130px;
-	width: 134px;
-	background-image: url(../img/section/user.svg);
-}
+
 .user-sm {
 	height: 65px;
 	width: 67px;
