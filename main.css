@@ -6449,17 +6449,7 @@ html:not(.mobile) .person:hover .person-actions > * {
   -webkit-transition: all cubic-bezier(0.23, 1, 0.32, 1) 3s 1s;
   transition: all cubic-bezier(0.23, 1, 0.32, 1) 3s 1s;
 }
-.present-top:after {
-  position: absolute;
-  top: -69px;
-  left: 50%;
-  display: block;
-  content: "";
-  height: 70px;
-  width: 146px;
-  margin-left: -73px;
-  background: url(../img/section/present-sash.svg);
-}
+
 .present.animated .present-top {
   -webkit-transform: rotate(70deg);
   transform: rotate(70deg);
