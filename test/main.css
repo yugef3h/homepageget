@@ -556,6 +556,29 @@ a {
 .page-navbar .navbar-buttons > li > a {
   font-size: 14px;
 }
+@media (max-width: 767px) {
+  .navbar-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 25px;
+    background-color: transparent;
+    -webkit-transition: linear background .15s;
+    transition: linear background .15s;
+    visibility: hidden;
+    overflow-y: auto;
+  }
+  .navbar-open .navbar-container {
+    z-index: 3;
+    background-color: rgba(255,255,255,0.95);
+    visibility: visible;
+  }
+  .navbar-open.navbar-bgfade .navbar-container {
+    background-color: transparent;
+  }
+}
 @media (max-width: 400px){
   .navbar-container ul:nth-child(2) .btn {
     font-size: .75em;
@@ -662,4 +685,27 @@ a {
   font-size: 15px;
   font-weight: bold;
 }
-
+.page-navbar.navbar-fixed {
+  position: fixed;
+  height: 76px;
+  padding: 13px 0;
+  background: #026FCE;
+  background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background-image: -ms-linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background-image: -moz-linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background-image: -o-linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background-image: -webkit-linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background-image: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  -webkit-box-shadow: 0 0 40px rgba(37,45,51, .5);
+  box-shadow: 0 0 40px rgba(37,45,51, .5);
+  -webkit-transition: top .1s, background .1s, padding .1s;
+  transition: top .1s, background .1s, padding .1s;
+}
+.page-navbar.navbar-fixed.navbar-hidden {
+  top: -76px;
+  opacity: 0;
+}
+.page-navbar.navbar-fixed.navbar-visible {
+  top: 0;
+  opacity: 1;
+}

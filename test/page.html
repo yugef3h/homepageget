@@ -117,7 +117,6 @@
       var prevScroll = '0';
       var curDir = 'down';
       var prevDir = 'up';
-      var fixedSidebar = $('.main-sidebar-scrollspy');
 
       $(window).scroll(function () {
         if ($(this).scrollTop() > 100 && (!pageNav.hasClass('navbar-hidden') && !pageNav.hasClass('navbar-fixed'))) {
@@ -135,14 +134,12 @@
             if (curDir !== prevDir) {
               prevDir = curDir;
               pageNav.removeClass('navbar-visible').addClass('navbar-hidden');
-              fixedSidebar.removeClass('main-sidebar-floating-nav');
             }
           }
           else {
             curDir = 'up';
             if (curDir !== prevDir) {
               pageNav.removeClass('navbar-hidden').addClass('navbar-visible');
-              fixedSidebar.addClass('main-sidebar-floating-nav');
               prevDir = curDir;
             }
           }
@@ -150,7 +147,6 @@
         }
         if (pageNav.hasClass('navbar-fixed') && $(this).scrollTop() <= 10) {
           pageNav.removeClass('navbar-fixed navbar-visible');
-          fixedSidebar.removeClass('main-sidebar-floating-nav');
         }
       });
     }
