@@ -80,10 +80,6 @@ ul, ol {
   margin-bottom: 10px;
 }
 
-a,
-a:visited {
-  text-decoration: underline;
-}
 a:hover,
 a:focus,
 .link:hover,
